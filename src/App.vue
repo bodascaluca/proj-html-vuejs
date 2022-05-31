@@ -5,7 +5,7 @@
       <HeaderFix />
     </div>
 
-    <div>
+    <div class="main">
       <MainSections />
     </div>
 
@@ -40,6 +40,9 @@ export default {
 
 .header{
   height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 </style>

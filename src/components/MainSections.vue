@@ -1,15 +1,19 @@
 <template>
   <div>
-      MAINSECTIONS 
-      <div>
-        <button class="btn btn-primary" type="button"></button>
-      </div>
+    <div>
+      <AppJumbotron />
+    </div>
   </div>
 </template>
 
 <script>
+import AppJumbotron from "./AppJumbotron.vue";
+
 export default {
     name:"MainSections",
+    components:{
+      AppJumbotron,
+    }
 }
 </script>
 

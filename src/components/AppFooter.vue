@@ -1,7 +1,7 @@
 <template>
   <div>
-        FOTTER 
-  </div>
+
+</div>
 </template>
 
 <script>
