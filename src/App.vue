@@ -37,6 +37,16 @@ export default {
 @import "./style/common.scss";
 @import'~@fortawesome/fontawesome-free/css/all.min.css';
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+
+html, body {
+  font-family:  'Lato' 'Source Serif Pro', serif;
+}
+
+#app {
+  font-family: 'Lato' 'Source Serif Pro', serif;
+}
 
 .header{
   height: 80px;

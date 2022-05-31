@@ -1,18 +1,27 @@
 <template>
   <div>
+
     <div>
       <AppJumbotron />
     </div>
+
+    <div>
+      <SectionUno />
+    </div>
+
   </div>
 </template>
 
 <script>
 import AppJumbotron from "./AppJumbotron.vue";
+import SectionUno from "./SectionUno.vue";
+
 
 export default {
     name:"MainSections",
     components:{
       AppJumbotron,
+      SectionUno
     }
 }
 </script>
