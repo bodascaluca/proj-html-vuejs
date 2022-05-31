@@ -1,5 +1,5 @@
 <template>
-  <div class=" header w-100 d-flex justify-content-between align-items-center  border border-primary">
+  <div class=" header w-100 d-flex justify-content-between align-items-center">
 
     <div class="ms-4">
       <img class="w-75" src="../assets/image/avada-bakery-logo.png" alt="Bakery Logo">
@@ -74,7 +74,7 @@ export default {
 .header{
   height:80px;
   // background:#f3e7f1;
-  // background: $background-header-color;
+  background: $background-header-color;
 
   .nav-item a{
     // color:#5b2ba2;

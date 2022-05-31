@@ -39,13 +39,8 @@ export default {
 @import "~bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Source+Serif+Pro:wght@400;600&display=swap');
 
-
-html, body {
-  font-family:  'Lato' 'Source Serif Pro', serif;
-}
-
 #app {
-  font-family: 'Lato' 'Source Serif Pro', serif;
+  font-family: 'Tiro Tamil', serif;
 }
 
 .header{
@@ -53,6 +48,7 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 
 </style>
