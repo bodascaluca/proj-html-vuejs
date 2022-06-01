@@ -2,7 +2,7 @@
   <div id="app">
 
     <div class="header border ">
-      <HeaderFix />
+      <HeaderFix :header="header" :icon="icon" :img="img" />
     </div>
 
     <div class="main">
@@ -28,8 +28,52 @@ export default {
     HeaderFix,
     MainSections,
     AppFooter,
-  }
-
+  },
+   data: function(){
+      return { 
+        header:[
+          {
+            name:"Home",
+            id:0,
+          },
+          {
+            name:"Shop",
+            id:1,
+          },
+          {
+            name:"About",
+            id:2,
+          },
+          {
+            name:"Gallery",
+            id:3,
+          },
+          {
+            name:"Locations",
+            id:4,
+          },
+          {
+            name:"Journal",
+            id:5,
+          },
+          {
+            name:"Contact",
+            id:6,
+          },
+          {
+            name:"My Account",
+            id:7,
+          },
+        ],
+        icon:[{
+          icon:"fas fa-shopping-cart",
+        }],
+        img:{
+          title:" avada-bakery-logo",
+        }
+      }
+    }
+      // fas fa-shopping-cart 
 }
 </script>
 

@@ -17,6 +17,10 @@
       <SectionTre />
     </div>
 
+    <div>
+      <SectionQuattro />
+    </div>
+
   </div>
 </template>
 
@@ -25,6 +29,8 @@ import AppJumbotron from "./AppJumbotron.vue";
 import SectionUno from "./SectionUno.vue";
 import SectionDue from "./SectionDue.vue";
 import SectionTre from "./SectionTre.vue";
+import SectionQuattro from "./SectionQuattro.vue";
+
 
 
 
@@ -35,7 +41,8 @@ export default {
       SectionUno,
       SectionDue,
       SectionTre,
-    }
+      SectionQuattro,
+    },
 }
 </script>
 

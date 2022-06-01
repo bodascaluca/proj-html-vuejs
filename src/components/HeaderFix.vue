@@ -2,56 +2,28 @@
   <div class=" header w-100 d-flex justify-content-between align-items-center">
 
     <div class="ms-4">
-      <img class="w-75" src="../assets/image/avada-bakery-logo.png" alt="Bakery Logo">
+      <img class="w-75" :src="require('../assets/image/' + img.title + '.png')" alt="Bakery Logo">
     </div>
-
-    <div class="headerMenu">
+<!-- avada-bakery-logo -->
+    <div class="headerMenu"> 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             
               <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
               
-                <li class="nav-item">
-                  <a class="nav-link  color" aria-current="page" href="#">HOME</a>
+                <li class="nav-item" v-for="(item, index) in header" :key="index">
+                  <a class="nav-link  color" aria-current="page" href="#">{{item.name }}</a>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link color" href="#">SHOP</a>
+                <li class="nav-item" v-for="(item, index) in icon" :key="index">
+                  <a class="nav-link" href="#" aria-disabled="true"><i :class="item.icon"></i></a>
                 </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" >ABOUT</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true">GALLERY</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true">LOCATIONS</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true">JOURNAL</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true">CONTACT</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true">MY ACCOUNT</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#" aria-disabled="true"><i class="fas fa-shopping-cart"></i></a>
-                </li>
-            
+           
               </ul>
 
             </div>
@@ -65,6 +37,11 @@
 <script>
 export default {
     name:"HeaderFix",
+    props:{
+      header:Array,
+      icon:Array,
+      img:Object
+    }
 }
 </script>
 
