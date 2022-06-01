@@ -34,42 +34,42 @@ export default {
         header:[
           {
             name:"Home",
-            id:0,
-          },
-          {
-            name:"Shop",
             id:1,
           },
           {
-            name:"About",
+            name:"Shop",
             id:2,
           },
           {
-            name:"Gallery",
+            name:"About",
             id:3,
           },
           {
-            name:"Locations",
+            name:"Gallery",
             id:4,
           },
           {
-            name:"Journal",
+            name:"Locations",
             id:5,
           },
           {
-            name:"Contact",
+            name:"Journal",
             id:6,
           },
           {
-            name:"My Account",
+            name:"Contact",
             id:7,
+          },
+          {
+            name:"My Account",
+            id:8,
           },
         ],
         icon:[{
           icon:"fas fa-shopping-cart",
         }],
         img:{
-          title:" avada-bakery-logo",
+          title:"avada-bakery-logo",
         }
       }
     }

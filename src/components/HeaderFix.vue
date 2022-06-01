@@ -16,7 +16,7 @@
             
               <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
               
-                <li class="nav-item" v-for="(item, index) in header" :key="index">
+                <li class="nav-item" v-for="(item) in header" :key="item.id">
                   <a class="nav-link  color" aria-current="page" href="#">{{item.name }}</a>
                 </li>
 

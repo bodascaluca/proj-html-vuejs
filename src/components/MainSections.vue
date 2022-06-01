@@ -21,6 +21,19 @@
       <SectionQuattro />
     </div>
 
+    <div>
+      <SectionCinque />
+    </div>
+
+    <div>
+      <SectionSei />
+    </div>
+    
+     <div>
+      <SectionSette />
+    </div>
+    
+
   </div>
 </template>
 
@@ -30,6 +43,11 @@ import SectionUno from "./SectionUno.vue";
 import SectionDue from "./SectionDue.vue";
 import SectionTre from "./SectionTre.vue";
 import SectionQuattro from "./SectionQuattro.vue";
+import SectionCinque from "./SectionCinque.vue";
+import SectionSei from "./SectionSei.vue";
+import SectionSette from "./SectionSette.vue";
+
+
 
 
 
@@ -42,6 +60,9 @@ export default {
       SectionDue,
       SectionTre,
       SectionQuattro,
+      SectionCinque,
+      SectionSei,
+      SectionSette,
     },
 }
 </script>

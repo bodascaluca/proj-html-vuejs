@@ -1,41 +1,39 @@
 <template>
-  <div class="pt-5">
-      <div class="ms_container">
+  <div class="ms_container mt-4">
+      <img class="image" src="../assets/image/bakery-process-3.jpg" alt="">
 
-        <img class="image" src="../assets/image/bakery-process-1.jpg" alt="">
-
-        <div class="title color z">
-          <h2><b>Tell us what you have in mind</b> </h2>
+       <div class="title color z">
+          <h2><b>Delivered to your home</b> </h2>
         </div>
 
         <div class="number color z">
-          <h2 class="nm-size">01</h2>
+          <h2 class="nm-size">03</h2>
         </div>
 
         <div class="paragrafo color z">
-          <h6 class="pr-h grey text-uppercase">manual ingredients selection</h6>
+          <h6 class="pr-h grey text-uppercase">baked to order & gift wrapped</h6>
           <p class="pr-p mt-3">Cras consequat lectus vestibulum torto pulvinar, quis euismod nisl varius. Ut eu laoreet ex. Aliquam erat volutpat. Nullam quis sagittis nibh. Morbi consectetur ultricies ante ac congue. Donec lorem erat, finibus in velit placerat, rutrum augue.</p>
         </div>
         
-      </div>
   </div>
 </template>
 
 <script>
 export default {
-    name:"SectionQuattro",
+    name:"SectionSei",
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 @import "../style/common.scss";
 @import "../style/btn.scss";
 
+.image{
+    filter:brightness(0.6);
+}
+
 .ms_container{
   position:relative;
-  .image{
-    filter: brightness(0.6);
-  }
 
   .color{
     color:$color-text;
@@ -62,7 +60,7 @@ export default {
     width:400px;
     position:absolute;
     bottom:50px;
-    right:50px;
+    left:50px;
 
     .grey{
       color:$color-grey-text;
@@ -73,10 +71,6 @@ export default {
     .pr-p{
       font-size:1rem;
     }
-
-
   }
 }
-
-
 </style>
