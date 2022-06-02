@@ -10,7 +10,7 @@
     </div>
 
     <div>
-      <AppFooter />
+      <AppFooter :header="header" :icon="icon" :img="img" />
     </div>
 
   </div>
