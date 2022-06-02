@@ -1,5 +1,5 @@
 <template>
-  <div class="ms_container mt-5 mb-5">
+  <div class="ms_container mt-5 mb-5 pb-5">
 
       <div class="text-center mb-4">
           <h6 class="h6-title color-grey text-uppercase mb-3">Locations</h6>
