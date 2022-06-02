@@ -7,10 +7,10 @@
             <img src="../assets/image/social-1.jpg" alt="">
         </div>
 
-        <div class=" image-2 col-6 border ms-1 me-2 text-center">
-            <h6 class="text-uppercase mt-5 color-grey mb-3">made for sharing</h6>
+        <div class=" image-2 col-6 border ms-1 me-2 text-center padding">
+            <h6 class=" text-uppercase mt-5 color-grey mb-3">made for sharing</h6>
             <h4 class="color-primary mb-3"><b>Let's stay in touch</b></h4>
-            <button class="btn-prymary ms_btn-qui"><a href="#"> <i class="fab fa-instagram"></i><span class="ms-3">Follow Us</span></a></button>
+            <button class="btn-prymary ms_btn-qui"><a href="#"> <i class=" a-size fab fa-instagram"></i><span class="ms-3 i-size">Follow Us</span></a></button>
         </div>
 
         <div class="image-2 col  ms-3">
@@ -72,5 +72,13 @@ name:"SectionOtto",
     padding: .5rem 1.5rem;
     border-radius:5px;
     border: 1px solid $background-secondary-color;
+}
+
+.padding {
+    padding-top:50px;
+}
+.a-size,
+.i-size{
+    font-size:.8rem;
 }
 </style>
