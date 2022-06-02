@@ -32,6 +32,10 @@
      <div>
       <SectionSette />
     </div>
+
+    <div>
+      <SectionOtto />
+    </div>
     
 
   </div>
@@ -46,6 +50,8 @@ import SectionQuattro from "./SectionQuattro.vue";
 import SectionCinque from "./SectionCinque.vue";
 import SectionSei from "./SectionSei.vue";
 import SectionSette from "./SectionSette.vue";
+import SectionOtto from "./SectionOtto.vue";
+
 
 
 
@@ -63,6 +69,7 @@ export default {
       SectionCinque,
       SectionSei,
       SectionSette,
+      SectionOtto,
     },
 }
 </script>
